@@ -1,1 +1,4 @@
-test
+A dead-simple Dropdown jQuery plugin I oftenly use accross apps.
+
+
+All you need to do is to have a <select> tag and add the class="dd";

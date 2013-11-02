@@ -1,0 +1,1 @@
+.dd{background:#FFF;display:block;margin:0;padding:0;position:relative;width:auto}.dd .ddactive{font-weight:700}.dd .ddown{background:#FFF}.dd dt{transition:background 300ms ease-out}.dd dt span{border-color:#999 transparent transparent;margin-top:-3px;position:absolute;right:15px;top:50%}.dd li,.dd dt{padding:10px 20px}.dd li:hover{background:#eee}
