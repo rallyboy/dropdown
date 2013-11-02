@@ -1,4 +1,16 @@
-A dead-simple Dropdown jQuery plugin I oftenly use accross apps.
+A dead-simple & Super tiny Dropdown jQuery plugin I oftenly use accross apps.
 
 
-All you need to do is to have a <select> tag and add the class="dd";
+Add "dd" class to a <select> tag.
+
+Example:
+
+<select class="dd" id="test">
+	<option/>Great Cool Option First
+	<option/>Option 2nd
+	<option/>Option 3rd
+	<option selected/>Option 4th
+	<option/>Option 5th
+</select>
+
+
