@@ -112,7 +112,7 @@ function dropdown() {
 
     // CLOSE DROPDOWN
     $(".ddown li").on("click", function (e) {
-        var d = "." + ($(this).parent().parent().attr("class")).match(/(^|\s)(dd\d+)($|\s)/)[2];
+        var d = "."+($(this).parent().parent().attr("class")).match(/(^|\s)(dd\d+)($|\s)/)[2];
 
         var newid = $(this).text();
         $(d + " .ddtxt").text(newid);

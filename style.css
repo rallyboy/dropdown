@@ -1,1 +1,12 @@
-.dd{background:#FFF;display:block;margin:0;padding:0;position:relative;width:auto}.dd .ddactive{font-weight:700}.dd .ddown{background:#FFF}.dd dt{transition:background 300ms ease-out}.dd dt span{border-color:#999 transparent transparent;margin-top:-3px;position:absolute;right:15px;top:50%}.dd li,.dd dt{padding:10px 20px}.dd li:hover{background:#eee}
+.dd{background:white;display:block;margin:0;padding:0;position:relative;width:auto;font-size:14px;}
+.dd .ddactive{font-weight:700}
+.dd dt{
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	-ms-transition: background 0.3s;
+	-o-transition: background 0.3s;
+	transition: background 0.3s;
+}
+.ddown{background:white}
+.ddarrow{border-color:#999 transparent transparent !important;margin-top:-3px}
+.dd li,.dd dt{padding:10px 20px}.dd li:hover{background:#eee}
