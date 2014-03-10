@@ -1,12 +1,7 @@
-.dd{background:white;display:block;margin:0;padding:0;position:relative;width:auto;font-size:14px;}
+.dd{background:white;display:block;margin:0;padding:0; position:relative;width:auto;font-size:14px}.dd dt{position:relative;z-index:1009}.ddown li,.ddown{position:absolute;width:100%;position:absolute;z-index:1001;top:0;width:100%}.ddarrow{border-color:#999 transparent transparent !important;margin-top:-3px}.dd li{-webkit-transition:all 0.2s linear 0s; -moz-transition:all 0.2s linear 0s; -ms-transition:all 0.2s linear 0s; -o-transition:all 0.2s linear 0s; transition:all 0.2s linear 0s}.ddarrow{width:0;height:0;border:6px solid transparent;float:right;position:absolute;right:15px;top:50%}.ddline{width:1px;height:70%;border-left:1px solid #ccc;float:right;position:absolute;right:35px;top:15%}
+
+/* Change following */
+.dd li,.dd dt{padding: 10px 15px}
 .dd .ddactive{font-weight:700}
-.dd dt{
-	-webkit-transition: background 0.3s;
-	-moz-transition: background 0.3s;
-	-ms-transition: background 0.3s;
-	-o-transition: background 0.3s;
-	transition: background 0.3s;
-}
-.ddown{background:white}
-.ddarrow{border-color:#999 transparent transparent !important;margin-top:-3px}
-.dd li,.dd dt{padding:10px 20px}.dd li:hover{background:#eee}
+.dd li:hover{background: #fc756f;color: #fff;}
+.ddown,.ddown li,.dd dt{background:white;}
