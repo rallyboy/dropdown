@@ -14,3 +14,10 @@ Example:
 </select>
 
 
+<script src="dropdown.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	dd();
+});
+</script>
+
